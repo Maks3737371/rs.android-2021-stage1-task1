@@ -10,7 +10,7 @@ class Task1BillCounterTest {
     @Test
     fun testTask3BillCounter1() {
         val billArray = intArrayOf(10, 1, 9)
-        assertEquals(fairlySplit, counter.calculateFairlySplit(billArray, 0, 5).toLowerCase())
+            assertEquals(fairlySplit, counter.calculateFairlySplit(billArray, 0, 5).toLowerCase())
     }
 
     @Test
